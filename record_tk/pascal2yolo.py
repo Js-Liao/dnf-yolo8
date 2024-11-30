@@ -27,6 +27,6 @@ def convert_voc_to_yolo(voc_folder, output_folder):
                     f.write(yolo_line)
 
 
-voc_folder = r'E:\Codes\PyProjects\yolo8_dxc\datasets\fortestmy\labels\train'
-output_folder = r'E:\Codes\PyProjects\yolo8_dxc\datasets\fortestmy\labels\train'
+voc_folder = r'\datasets\fortestmy\labels\train'
+output_folder = r'\datasets\fortestmy\labels\train'
 convert_voc_to_yolo(voc_folder, output_folder)
