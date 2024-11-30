@@ -2,7 +2,7 @@ import cv2
 import os
 
 
-output_dir = r'E:\Codes\PyProjects\yolo8_dxc\datasets\dxcjus\images\train'
+output_dir = r'\datasets\dxcjus\images\train'
 video_files = [f for f in os.listdir('.') if f.endswith('.avi')]
 
 cap = cv2.VideoCapture('output.avi')
